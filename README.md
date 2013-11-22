@@ -25,7 +25,7 @@ Finally, if you've never used Chef before - we highly recommend you buy &amp; wa
   
 ### 3. Clone this project
   
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
+    git clone https://github.com/ShelbyTV/sprout-wrap.git
     cd sprout-wrap
   
 ### 4. Install soloist & and other required gems
