@@ -19,6 +19,6 @@ As of Xcode 5, command line tools are installed by default.  Hurray!
 
 ### 2. Do all of the things
   
-  `bash < <( curl https://raw.github.com/ShelbyTV/sprout-wrap/master/shelby_bootstrap.sh )`
+  `bash <( curl https://raw.github.com/ShelbyTV/sprout-wrap/master/shelby_bootstrap.sh )`
   
   Script will clone this project, install the requirements, and run soloist to provision your machine.
