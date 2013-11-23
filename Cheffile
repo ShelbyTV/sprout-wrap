@@ -7,6 +7,14 @@ cookbook 'sprout-osx-base',
   :git => 'git://github.com/ShelbyTV/sprout.git',
   :path => 'sprout-osx-base'
 
+cookbook 'sprout-osx-rbenv',
+  :git => 'git://github.com/ShelbyTV/sprout.git',
+  :path => 'sprout-osx-rbenv'
+  
+cookbook 'sprout-osx-git',
+  :git => 'git://github.com/ShelbyTV/sprout.git',
+  :path => 'sprout-osx-git'
+
 cookbook 'pivotal_workstation',
   :git => 'git://github.com/ShelbyTV/sprout.git',
   :path => 'pivotal_workstation'

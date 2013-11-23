@@ -1,14 +1,14 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (2.0.4)
+    dmg (2.0.8)
     homebrew (1.5.2)
 
 GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: osx
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     osx (0.1.0)
 
@@ -16,7 +16,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: pivotal_workstation
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -31,7 +31,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-apps
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -43,15 +43,35 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     sprout-osx-base (0.1.0)
 
 GIT
   remote: git://github.com/ShelbyTV/sprout.git
+  path: sprout-osx-git
+  ref: master
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
+  specs:
+    sprout-osx-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/ShelbyTV/sprout.git
+  path: sprout-osx-rbenv
+  ref: master
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
+  specs:
+    sprout-osx-rbenv (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -62,7 +82,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: f0daa7ed7a155c93d95f7f905f1b310bfffadc1a
+  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
@@ -83,6 +103,8 @@ DEPENDENCIES
   pivotal_workstation (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
+  sprout-osx-git (>= 0)
+  sprout-osx-rbenv (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
 
