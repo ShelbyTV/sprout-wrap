@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/bash
 
 # 1) Download Xcode from App Store
 #   - it seems this installs command line tools now
@@ -12,7 +12,7 @@ echo 'Prerequisite: You must have XCode 5 installed via App Store (it installs c
 # Ask for the administrator password upfront
 sudo -v
 
-set -x
+set -xi
 
 # Clone sprout-wrap 
 #  sprout-wrap does all the heavy lifting…
