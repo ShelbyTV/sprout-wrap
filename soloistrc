@@ -99,5 +99,17 @@ node_attributes:
   workspace_directory: code
   git_projects:
     -
+      - sprout
+      - https://github.com/ShelbyTV/sprout.git
+    -
       - sprout-wrap
       - https://github.com/ShelbyTV/sprout-wrap.git
+    -
+      - shelby_gt
+      - https://github.com/ShelbyTV/shelby_gt.git
+    -
+      - shelby-gt-web
+      - https://github.com/ShelbyTV/shelby-gt-web.git
+    -
+      - Shelby-2.0-iOS
+      - https://github.com/ShelbyTV/Shelby-2.0-iOS.git
