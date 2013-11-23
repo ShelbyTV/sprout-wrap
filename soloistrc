@@ -20,6 +20,13 @@ recipes:
 #Trackpad
 - sprout-osx-settings::set_multitouch_preferences
 
+#Safari
+- sprout-osx-settings::safari_preferences
+  # Mavericks has changed the way safari preferences are set... this doesn't do much yet :[
+  
+#Hot corners
+- sprout-osx-settings::hot_corner_preferences
+
 #-------------------------------
 #Development
 
@@ -29,6 +36,9 @@ recipes:
 ##general
 #- pivotal_workstation::unix_essentials
 - pivotal_workstation::locate_on
+
+##git
+- sprout-osx-git::global_configuration
 
 ##ruby
 - sprout-osx-rbenv 			

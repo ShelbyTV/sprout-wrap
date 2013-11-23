@@ -51,7 +51,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-git
   ref: master
-  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
+  sha: c8e5183b85c50f8c02d60088b844f1a015d2381d
   specs:
     sprout-osx-git (0.1.0)
       homebrew (>= 0.0.0)
@@ -71,7 +71,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: cca70073c340ee3a6c62d0bfb325edaa86006e8a
+  sha: a4ca2759f1ba900531873093c7b2ea4502b454d1
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
