@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 # 1) Download Xcode from App Store
 #   - it seems this installs command line tools now
