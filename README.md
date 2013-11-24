@@ -15,7 +15,9 @@ Mavericks workstation for Ruby development.
 
 [![Xcode - Apple](http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-lrg.gif)](https://itunes.apple.com/us/app/xcode/id497799835?mt=12&uo=4)
 
-As of Xcode 5, command line tools are installed by default.  Hurray!
+**1B. Run Xcode** 
+
+As of Xcode 5, command line tools are installed on first run.  Hurray!
 
 ### 2. Do all of the things
   
