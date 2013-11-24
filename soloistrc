@@ -55,7 +55,7 @@ recipes:
 - sprout-osx-git::git_projects
 
 ##bonus
-- sprout-osx-apps::gitx
+#- sprout-osx-apps::gitx
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::virtualbox
 
