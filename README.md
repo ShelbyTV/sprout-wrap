@@ -45,6 +45,8 @@ As I use my newly provisioned machine, I'm tracking everything that should have 
 * disable "automatically rearrange Spaces based on use"
 * disable "when switiching to an app, switch to a Space with open windows"
 * require PW 5 seconds after screen saver
+* Shelby specific `~/.ssh/config`
+  * would want to pull this from a private repo
 
 TODO: How can this be used to easily refresh a computer on a regular basis (quarterly)?
 Remaining big issue: my files in my home directory.  Seperate partition?  Dropbox?
