@@ -15,8 +15,6 @@ Mavericks workstation for Ruby development.
 
 [![Xcode - Apple](http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-lrg.gif)](https://itunes.apple.com/us/app/xcode/id497799835?mt=12&uo=4)
 
-**1B. Run Xcode** 
-
 As of Mavericks, command line tools are installed w/ XCode 5.  Hurray (even tho Brew wrongly complains)!
 
 ### 2. Do all of the things
@@ -25,10 +23,19 @@ As of Mavericks, command line tools are installed w/ XCode 5.  Hurray (even tho 
   
   Script will clone this project, install the requirements, and run soloist to provision your machine.
 
-## Nice To Have / TODO
+## TODO
 
-As I use my newly provisioned machine, I'm tracking everything that should have been provisioned but I'm forced to manually tweak.
+As I use my newly provisioned machine, I'm tracking everything that should have been provisioned but I'm forced to do manually...
 
+### Must do before next run
+* `brew install libxml2`
+* **RBENV sucks without the following two things**
+  * after installing a ruby version, `gem install bundler`
+  * then, to make rbenv use it, `rbenv rehash`
+* `brew cask install tinygrab` 
+ 
+
+### Nice To Have
 * Terminal tweaks
   * visual bell, no audio bell
     * com.apple.terminal "Window Settings" -> "Pro" -> Bell = 0;
@@ -47,11 +54,10 @@ As I use my newly provisioned machine, I'm tracking everything that should have 
 * require PW 5 seconds after screen saver
 * Shelby specific `~/.ssh/config`
   * would want to pull this from a private repo
-* `brew install libxml2`
-* **RBENV sucks without the following two things**
-  * after installing a ruby version, `gem install bundler`
-  * then, to make rbenv use it, `rbenv rehash`
-* `brew cask install tinygrab` 
 
-TODO: How can this be used to easily refresh a computer on a regular basis (quarterly)?
-Remaining big issue: my files in my home directory.  Seperate partition?  Dropbox?
+### The Ultimate
+How can this be used to easily refresh a computer on a regular basis (monthly, quarterly)?
+
+
+Remaining big issue: my files in **my home directory.**  Seperate partition?  Dropbox? 
+Cloud + local copy seems nice (ie. Backblaze + TimeMachine) if it's easy and reliable.
