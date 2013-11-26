@@ -51,6 +51,7 @@ As I use my newly provisioned machine, I'm tracking everything that should have 
 * **RBENV sucks without the following two things**
   * after installing a ruby version, `gem install bundler`
   * then, to make rbenv use it, `rbenv rehash`
+* `brew cask install tinygrab` 
 
 TODO: How can this be used to easily refresh a computer on a regular basis (quarterly)?
 Remaining big issue: my files in my home directory.  Seperate partition?  Dropbox?
