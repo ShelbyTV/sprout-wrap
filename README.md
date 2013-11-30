@@ -76,6 +76,7 @@ As I use my newly provisioned machine, I'm tracking everything that should have 
 `/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist`
 `/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist`
   * `brew cask install Transmission`
+  * `brew cask install vlc`
 
 
 
