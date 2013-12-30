@@ -45,6 +45,7 @@ recipes:
 - sprout-osx-apps::bundler
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::libxml2
+- sprout-osx-apps::cocoapods
 
 ##databases
 - pivotal_workstation::mongodb

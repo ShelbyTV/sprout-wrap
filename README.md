@@ -28,9 +28,6 @@ As of Mavericks, command line tools are installed w/ XCode 5.  Hurray (even tho 
 As I use my newly provisioned machine, I'm tracking everything that should have been provisioned but I'm forced to do manually...
 
 ### Must do before next run
-* `gem install cocoapods`
-  * `rbenv rehash`
- 
 
 ### Nice To Have
 * Terminal tweaks
