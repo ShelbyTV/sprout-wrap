@@ -1,14 +1,14 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (2.0.8)
-    homebrew (1.5.2)
+    dmg (2.1.2)
+    homebrew (1.5.4)
 
 GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: osx
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     osx (0.1.0)
 
@@ -16,7 +16,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: pivotal_workstation
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -31,7 +31,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-apps
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -43,7 +43,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-osx-base (0.1.0)
 
@@ -51,7 +51,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-git
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-osx-git (0.1.0)
       homebrew (>= 0.0.0)
@@ -61,7 +61,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-rbenv
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)
@@ -71,7 +71,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -82,7 +82,7 @@ GIT
   remote: git://github.com/ShelbyTV/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: b8221debf922a90d68ade2955166334e609cac2d
+  sha: 57c1a8036df4de4a8cc4b373fe274f11b67e364e
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
