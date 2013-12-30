@@ -28,6 +28,8 @@ As of Mavericks, command line tools are installed w/ XCode 5.  Hurray (even tho 
 As I use my newly provisioned machine, I'm tracking everything that should have been provisioned but I'm forced to do manually...
 
 ### Must do before next run
+* Fix the `cocoapods` and `bundler` gems install recipes
+  * Maybe use the Ops Code [rbenv cookbook](http://community.opscode.com/cookbooks/rbenv) to install rbenv and the gems I want
 
 ### Nice To Have
 * Terminal tweaks
