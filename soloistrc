@@ -58,6 +58,7 @@ recipes:
 #- sprout-osx-apps::gitx
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::virtualbox
+- sprout-osx-apps::tinygrab
 
 #-------------------------------
 #Applications

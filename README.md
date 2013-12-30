@@ -32,7 +32,6 @@ As I use my newly provisioned machine, I'm tracking everything that should have 
 * **RBENV sucks without the following two things**
   * after installing a ruby version, `gem install bundler`
   * then, to make rbenv use it, `rbenv rehash`
-* `brew cask install tinygrab` 
 * `gem install cocoapods`
   * `rbenv rehash`
  
