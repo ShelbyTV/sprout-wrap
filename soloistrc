@@ -44,6 +44,9 @@ recipes:
 - sprout-osx-rbenv 			
 - sprout-osx-apps::imagemagick
 
+##ruby foundation
+- sprout-osx-apps::libxml2
+
 ##databases
 - pivotal_workstation::mongodb
   # XXX is this getting pulled into new cookbook? (I thought pivotal_workstation was deprecated)

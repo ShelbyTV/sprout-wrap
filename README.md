@@ -28,7 +28,6 @@ As of Mavericks, command line tools are installed w/ XCode 5.  Hurray (even tho 
 As I use my newly provisioned machine, I'm tracking everything that should have been provisioned but I'm forced to do manually...
 
 ### Must do before next run
-* `brew install libxml2`
 * **RBENV sucks without the following two things**
   * after installing a ruby version, `gem install bundler`
   * then, to make rbenv use it, `rbenv rehash`
