@@ -41,10 +41,9 @@ recipes:
 - sprout-osx-git::global_configuration
 
 ##ruby
-- sprout-osx-rbenv 			
+- sprout-osx-rbenv
+- sprout-osx-apps::bundler
 - sprout-osx-apps::imagemagick
-
-##ruby foundation
 - sprout-osx-apps::libxml2
 
 ##databases
